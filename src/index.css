@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiFormControl-root {
+  border: 0;
+  margin: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  margin-bottom: 10px !important;
+  vertical-align: top;
+  width: 73% !important;
+  margin-left: 13% !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  width: 41%;
+}
+
+
+.sideRight {
+  float: right;
+}
+
+.sideLeft {
+  float: left;
+}
+.setPosition {
+  margin-left: 13%;
+  margin-top: 3%;
+}
+.makeStyles-root-1 {
+  flex-grow: 1;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.MuiPaper-root.MuiCard-root.makeStyles-root-1.MuiPaper-elevation1.MuiPaper-rounded {
+  width: 81%;
+  margin-left: 10%;
+}
